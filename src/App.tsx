@@ -16,14 +16,6 @@ const App: React.FC = () => {
     return (
         <div>
             <Header title="React Vite Template" />
-            <nav className="p-4 flex gap-4">
-                <Link to="/" className="text-blue-600">
-                    Home
-                </Link>
-                <Link to="/about" className="text-blue-600">
-                    About
-                </Link>
-            </nav>
             <main className="p-4">
                 <Routes>
                     <Route path="/" element={<Home />} />

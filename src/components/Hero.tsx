@@ -44,11 +44,11 @@ function Hero() {
                             </svg>
                         </div>
                         <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                            Lightning Fast
+                            Ready to Use
                         </h3>
                         <p className="text-gray-600">
-                            Built with Vite for instant server start and
-                            lightning-fast hot module replacement.
+                            A complete setup with all the necessary tools and
+                            configurations to get you started quickly.
                         </p>
                     </div>
 
