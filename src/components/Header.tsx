@@ -1,11 +1,10 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 interface HeaderProps {
     title: string
 }
 
-const Header: React.FC<HeaderProps> = ({ title }) => (
+const Header = ({ title }: HeaderProps) => (
     <header className="bg-blue-600 text-white p-4 text-xl font-bold flex justify-between items-center">
         <p>{title}</p>
         <nav className="p-4 flex gap-4">
